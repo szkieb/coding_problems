@@ -10,7 +10,7 @@
 // For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return:
 // ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
-function splitStringbyNumber(s: string, k: number) {
+function splitStringbyNumber(s: string, k: number): string[] | null {
   // array to store split strings
   const splitArray: string[] = [];
 
